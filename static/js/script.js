@@ -125,7 +125,7 @@ const store = {
       autoLaunch: false,
       finale: false,
       skyLighting: SKY_LIGHT_NORMAL + "",
-      hideControls: true,
+      hideControls: IS_HEADER,
       longExposure: false,
       scaleFactor: getDefaultScaleFactor(),
     },
