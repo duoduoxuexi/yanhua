@@ -116,7 +116,7 @@ const store = {
     // at render time, and parsing on change.
     config: {
       quality: String(IS_HIGH_END_DEVICE ? QUALITY_HIGH : QUALITY_NORMAL), // will be mirrored to a global variable named `quality` in `configDidUpdate`, for perf.
-      shell: "Random",
+      shell: "随机",
       size: IS_DESKTOP
         ? "3" // Desktop default
         : IS_HEADER
@@ -791,18 +791,18 @@ function randomFastShell() {
 }
 
 const shellTypes = {
-  Random: randomShell,
-  Crackle: crackleShell,
-  Crossette: crossetteShell,
-  Crysanthemum: crysanthemumShell,
-  "Falling Leaves": fallingLeavesShell,
-  Floral: floralShell,
-  Ghost: ghostShell,
-  "Horse Tail": horsetailShell,
-  Palm: palmShell,
-  Ring: ringShell,
-  Strobe: strobeShell,
-  Willow: willowShell,
+  随机: randomShell,
+  裂纹: crackleShell,
+  十字: crossetteShell,
+  结晶: crysanthemumShell,
+  "落叶": fallingLeavesShell,
+  花: floralShell,
+  鬼: ghostShell,
+  "马尾": horsetailShell,
+  手掌: palmShell,
+  戒指: ringShell,
+  频闪: strobeShell,
+  柳树: willowShell,
 };
 
 const shellNames = Object.keys(shellTypes);
